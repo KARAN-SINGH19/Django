@@ -1,0 +1,29 @@
+*{
+    font-family: cursive;
+    text-align: justify;
+}
+div{
+    position: sticky;
+    background-color: lightskyblue;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.button{
+    background-color: red;
+    color: white;
+    margin-left: 960px;
+}
+.text{
+    text-align: justify;
+}
+.para{
+    background-color: white;
+    color: red;
+}

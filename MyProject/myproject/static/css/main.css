@@ -1,0 +1,36 @@
+.heading{
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: solid;
+    text-align: center;
+    border: 5px black solid;
+    
+}
+*{
+    margin: 2px;
+    padding: 2px;
+    color: white;
+    background-color:lightskyblue;
+    text-align: justify;
+    font-family: cursive;
+}
+
+.heading2{
+    text-align: center;
+}
+
+.SUBMIT{
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+.anchor{
+    text-decoration: none;
+}
+.register{
+    border: 2px solid black;
+    padding-left: 30px;
+    margin-right: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

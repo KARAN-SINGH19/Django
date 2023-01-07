@@ -1,0 +1,26 @@
+*{
+    color: white;
+    background-color:lightskyblue;
+    font-family: cursive;
+}
+.form{
+    width: 550px;
+    border: 5px black solid;
+    margin-left: 720px;
+    margin-bottom: 200px;
+    margin-top: -520px;
+    margin-right: 500px;
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+.text{
+    width: 700px;
+    vertical-align: middle;
+    text-align: justify;
+}
+.SUBMIT{
+    padding: 5px;
+    color: white;
+    background-color: green;
+}

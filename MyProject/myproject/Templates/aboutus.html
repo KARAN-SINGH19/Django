@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'css/main2.css' %}">
+</head>
+<body>
+    <div class="text">
+        <p>An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business.
+
+            What an 'About Us' page should be is a goal-oriented sales page, one that focuses on highlighting the biggest selling points of your story and brand at the top of the page, making a strong first impression on curious customers
+    
+        In Shopify’s customer trust research, we found that shoppers navigate to an About Us page to learn more about the brand and the people behind the products. Your 'About Page' should address those two curiosities shoppers have to help with decision making. 
+    
+            Shoppers are also interested in a company’s mission. They’ll use the About Us page to determine if they share core values with the business and to decide if they want to shop with the business or not. 
+            
+            In contrast to a landing page, your About Us page is the ideal place to accommodate a number of objectives: <br> <br>
+            
+            1. Communicate the story of your business and why you started it. <br> <br>
+            2. Describe the customers or the cause that your business serves. <br> <br>
+            3. Explain your business model or how your products are made. <br> <br>
+            4. Put a face to your business, featuring the founders or the people on your team. <br> <br>
+            5. Incorporate persuasive content (e.g., an explainer video, data visualizations, links to blog posts) that might otherwise clutter your homepage.</p>
+    </div>
+    
+    <main class="form">
+        <form action="" method="post">
+            {% csrf_token %}
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="" placeholder="Enter your name"> <br> <br>
+
+            <label for="age">Age:</label>
+            <input type="text" name="age" id=""  placeholder="Enter your age"> <br> <br>
+
+            <label for="Nationality">Nationality:</label>
+            <input type="text" name="Nationality" id=""  placeholder="Enter your nationality"> <br> <br>
+
+            <label for="Occupation">Occupation:</label>
+            <input type="text" name="Occupation"  placeholder="Enter your occupation"> <br> <br>
+
+            <label for="Date and Time">Date and Time:</label>
+            <input type="datetime-local" name="Date and Time" id=""> <br> <br>
+
+            <label for="Sex">Sex:</label>
+            <label for="Sex">Male</label>
+
+            <input type="radio" name="Sex" id=""> 
+            <label for="Sex">Female</label>
+            
+            <input type="radio" name="Sex" id="">   <br> <br>
+
+            <label for="suggestion">Are you satisfied with our website:</label>
+            <label for="">Yes</label>
+
+            <input type="checkbox" name="suggestion" id=""> 
+            <label for="">No</label>
+
+            <input type="checkbox" name="suggestion" id=""> <br> <br>
+            <input type="submit" name="" id="" class="SUBMIT">
+        </form>
+    </main>
+</body>
+</html>
